@@ -2,7 +2,7 @@
 
 const Card = () => {
     return(
-        <div className="bg-white cursor-pointer w-full h-full rounded-lg flex flex-col justify-center  items-center gap-4 md:flex-row md:gap-6 md:mt-6">
+        <div className="bg-white cursor-pointer w-full h-full rounded-lg flex flex-col justify-center  items-center mt-6 gap-4 md:flex-row md:gap-6 md:mt-6">
             <figure className='relative mb-2 w-56 h-56 flex justify-center items-center '>
                 <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs m-2 px-3 py-0.5'>Hoteles</span>
                 <img className='w-full h-full object-cover rounded-lg w-52 h-52' src='https://images.pexels.com/photos/3678857/pexels-photo-3678857.jpeg?auto=compress&cs=tinysrgb&w=600' alt='hotelGeneric'/>
