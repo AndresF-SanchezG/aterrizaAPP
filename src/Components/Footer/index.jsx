@@ -8,7 +8,7 @@ const Footer = () => {
     
     
     return (
-        <footer className="bottom-0 flex justify-center items-center z-10 w-full py-5 px-6 text-sm font-light md:fixed">
+        <footer className="bottom-0 flex justify-center items-center z-10 w-full py-5 px-6 text-sm font-light">
             <ul className="w-full flex flex-col items-center gap-3 md:flex-row justify-around">
                 <li className=" w-40 flex justify-center items-center">
                     <NavLink  to='https://www.instagram.com/aterriza.co/' className={({ isActive }) =>
