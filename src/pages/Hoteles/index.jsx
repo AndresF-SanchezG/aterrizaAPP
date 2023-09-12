@@ -1,14 +1,17 @@
+import { Layout } from "../../Components/Layout"
+import { LogoPage } from "../../Components/LogoPage"
+import { Formulario } from "../../Components/Formulario"
+
 
 const Hoteles = () => {
 
 
     return (
    
-        <div className='bg-red-100'>
-            Hoteles
-        </div>
-        
-   
+        <Layout>
+            <LogoPage />
+            <Formulario /> 
+        </Layout>
     )
   }
   

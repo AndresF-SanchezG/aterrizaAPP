@@ -8,8 +8,8 @@ const Footer = () => {
     
     
     return (
-        <footer className="bottom-0 flex justify-center items-center z-10 w-full py-5 px-6 text-sm font-light">
-            <ul className="w-full flex flex-col items-center gap-3 md:flex-row justify-around">
+        <footer className="flex bottom-0 z-10 w-full py-5 px-6 md:px-60 text-md font-light">
+            <ul className="w-full flex flex-col items-center gap-3  justify-around md:flex-row ">
                 <li className=" w-40 flex justify-center items-center">
                     <NavLink  to='https://www.instagram.com/aterriza.co/' className={({ isActive }) =>
                         isActive ? activeStyle: undefined
