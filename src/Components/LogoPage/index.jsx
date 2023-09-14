@@ -1,4 +1,4 @@
-import logoAterrizaReact  from '../../images/logoAterrizaReact.jpg'
+import logoAterrizaReact  from '../../images/WhatsApp Image 2023-09-14 at 3.52.54 PM.jpeg'
 
 const LogoPage = () => {
     return(
