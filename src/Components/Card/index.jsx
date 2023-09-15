@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Card = () => {
     return(
-        <div className="bg-white cursor-pointer w-full h-full rounded-lg flex flex-col justify-center  items-center  gap-4 md:flex-row md:gap-7 mb-16 md:mb-20 md:mt-6" >
+        <div className="bg-white cursor-pointer w-full h-full rounded-lg flex flex-col justify-center  items-center  gap-4 md:flex-row md:gap-7 mb-10" >
             <NavLink to='/hoteles'>
             <figure className='relative mb-2 w-56 h-56 flex justify-center items-center md:mt-6'>
                 <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs m-2 px-3 py-0.5'>Hoteles</span>
