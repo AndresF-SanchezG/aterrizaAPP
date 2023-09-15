@@ -11,7 +11,7 @@ const Formulario = () => {
              <ul className="py-4 space-y-8 ">
              {tipoDatosCotizacion?.map((dato) => (
                  <li className="border border-purple-800 border-2 flex justify-center">
-                     <select className="w-full">
+                     <select className="w-full p-1">
                      <option className="w-full">{dato}</option>
                     
                      </select>
