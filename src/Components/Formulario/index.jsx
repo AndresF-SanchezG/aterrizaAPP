@@ -18,6 +18,7 @@ const Formulario = () => {
                     
                  </li>
                  ))}
+                 
                   <button className="w-full flex justify-center items-center p-2 bg-purple-800 mb-4 text-white font-bold">COTIZAR</button>
                 </ul> 
             </form>
