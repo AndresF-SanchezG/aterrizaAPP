@@ -20,6 +20,7 @@ RUN npm install -g serve
 # Expone el puerto en el que se ejecutará el servidor web (generalmente 5000 para "serve")
 EXPOSE 5173
 
+
 # Comando para iniciar el servidor web y servir la aplicación construida en modo de producción
 CMD ["serve", "-s", "dist", "-l", "5173"]
 
