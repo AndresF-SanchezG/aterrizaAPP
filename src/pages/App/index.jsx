@@ -11,6 +11,8 @@ import { Navbar } from '../../Components/Navbar'
 import { QuienesSomos } from '../QuienesSomos'
 import { Home } from '../Home'
 import { Footer} from '../../Components/Footer'
+import { PageAuthentication } from '../PageAuthentication'
+
 
 import './App.css'
 
@@ -26,6 +28,7 @@ const AppRoutes = () => {
       { path:'/agradecimiento', element: <Agradecimiento />},
       { path:'/quienes-somos', element: <QuienesSomos />},
       { path:'/blogs', element: <BlogPosts />},
+      { path:'/admins', element: <PageAuthentication />}
     ])
         return routes;
 }
@@ -34,8 +37,7 @@ const App = () => {
   return (
      <BrowserRouter>
         <AppRoutes/>
-        <Navbar />
-        <Footer /> 
+       
      </BrowserRouter>
   )
 }
