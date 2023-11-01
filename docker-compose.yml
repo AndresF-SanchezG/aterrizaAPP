@@ -1,0 +1,9 @@
+services:
+  app-aterriza:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/api
+    ports:
+      - 5173:80
