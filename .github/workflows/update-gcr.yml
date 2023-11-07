@@ -23,6 +23,9 @@ jobs:
       run: |
         gcloud auth configure-docker
 
+    - name: Verificar instalación de gcloud
+      run: gcloud --version
+
     - name: Build and push Docker image
       run: |
         docker build -t gcr.io/pproject-launch/aterriza:v1 .
