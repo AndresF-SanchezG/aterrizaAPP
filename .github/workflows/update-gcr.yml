@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      CLOUDSDK_PYTHON: /usr/bin/python3
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-
-    - name: Set Python version
-      run: echo "::set-env name=CLOUDSDK_PYTHON::/usr/bin/python3"
 
     - name: Set up Google Cloud SDK
       uses: google-github-actions/setup-gcloud@v0.2.0
@@ -33,4 +33,5 @@ jobs:
       run: |
         docker build -t gcr.io/pproject-launch/aterriza:v1 .
         docker push gcr.io/pproject-launch/aterriza:v1
+
 
